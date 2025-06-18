@@ -1,0 +1,23 @@
+{
+    "socials":[
+        {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/vedank-wakalkar-05a6a2256/",
+      "icons": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/VedankWakalkar",
+      "icons": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:vedankw11@gmail.com",
+      "icons": "mail"
+    },{
+        "name":"X",
+        "href":"https://x.com/VedankWakalkar",
+        "icons":"twitter"
+    }
+    ]
+}
