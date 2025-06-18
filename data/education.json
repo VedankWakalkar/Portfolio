@@ -1,0 +1,38 @@
+{
+  "education": [
+    {
+      "name": "Vishwakarma Institute of Information Technology",
+      "href": "https://www.viit.ac.in/",
+      "title": "B.Tech in CSE (AIML)",
+      "logo": "./viit.jpg",
+      "start": "2022",
+      "end": "2026",
+      "description": [
+        "Expected to graduate in 2026.",
+        "Served as Associate Community Service Director at the Rotaract Club of VIIT."
+      ]
+    },
+    {
+      "name": "S.M. Patel Jr. College",
+      "href": "https://www.facebook.com/smp.grkm.gondia/",
+      "title": "Junior College",
+      "logo": "./college_school",
+      "start": "2020",
+      "end": "2022",
+      "description": [
+        "Completed 12th grade with 84.83%."
+      ]
+    },
+    {
+      "name": "Gujarati National High School",
+      "href": "https://www.facebook.com/smp.grkm.gondia/",
+      "title": "High School",
+      "logo": "./college_school",
+      "start": "2018",
+      "end": "2020",
+      "description": [
+        "Completed 10th grade with 87.80%."
+      ]
+    }
+  ]
+}
