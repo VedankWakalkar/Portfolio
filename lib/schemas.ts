@@ -40,6 +40,7 @@ const project=z.object({
 export type Experience = z.infer<typeof experience>;
 
 export const projectSchema=z.object({projects: z.array(project)})
+export type Project = z.infer<typeof project>;
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
 export const socialSchema = z.object({ socials: z.array(iconsLinks) });

@@ -1,0 +1,42 @@
+{
+  "career": [
+    {
+      "name": "Piyush IT Services",
+      "href": "https://www.linkedin.com/company/tworegisters/",
+      "title": "ML-Driven ECU Failover System",
+      "logo": "./piyush_it_logo.png",
+      "start": "Jan 2025",
+      "end": "May 2025",
+      "description": [
+        "Designed a real-time ECU attack response dashboard using Streamlit for EV networks.",
+        "Implemented anomaly-based threat detection and interactive visualization.",
+        "Built a KNN-based failover engine for resilient ECU recommendations during cyberattacks."
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/varun252k4/ECU-Recommender"
+        }
+      ]
+    },
+    {
+      "name": "Syngenta (Academic Project)",
+      "href": "https://github.com/VedankWakalkar/Farm_Asistant_Chatbot",
+      "title": "Farm Assistant Chatbot",
+      "logo": "./syngenta_logo.png",
+      "start": "Aug 2024",
+      "end": "Dec 2024",
+      "description": [
+        "Architected a full-stack AI chatbot for crop/fertilizer recommendation using FastAPI and React.",
+        "Integrated Groq's LLaMA 3 LLM for open-ended queries and ML models via REST APIs.",
+        "Developed dual-mode conversational UI and ensured real-time backend communication."
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/VedankWakalkar/Farm_Asistant_Chatbot"
+        }
+      ]
+    }
+  ]
+}

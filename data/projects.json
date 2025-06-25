@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "AskYourPDF",
+      "description": "AI-powered PDF search tool with async parsing and vector search using LangChain and Qdrant.",
+      "href": "https://ask-your-pdf-psi.vercel.app/",
+      "image": "/pdf_logo.png",
+      "tags": ["Next.js", "Redis", "LangChain", "Gemini", "Clerk", "Qdrant", "Express"],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/VedankWakalkar/AskYourPdf",
+          "icons": "github"
+        }
+      ]
+    },
+    {
+      "name": "Cotton Disease Detection",
+      "description": "ML-based cotton disease detection with FastAPI-React stack and fertilizer recommendation system.",
+      "href": "https://cottondiseasedetection-vedanks-projects-5ee79969.vercel.app/",
+      "image": "/cotton_logo.png",
+      "tags": ["FastAPI", "React", "Machine Learning", "Docker", "Crop Recommendation"],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/VedankWakalkar/Cotton_Disease_Detection",
+          "icons": "github"
+        }
+      ]
+    }
+  ]
+}
