@@ -1,3 +1,6 @@
+import Experience from "@/components/Experience";
+// import LinkWithIcon from "@/components/LinkWithIcon";
+import Projects from "@/components/Projects";
 import Socials from "@/components/Socials";
 import { Button } from "@/components/ui/button";
 import ShinyText from "@/components/ui/ShinyText/ShinyText";
@@ -15,9 +18,9 @@ export default function Home() {
         <section className="flex flex-col items-start gap-8 md:flex-row-reverse md:items-center md:justify-between">
           <Image
             className="rounded-lg"
-            src="/ved.jpg"
-            width={175}
-            height={175}
+            src="/ved-linkedin-pic.jpg"
+            width={170}
+            height={170}
             alt="Vedank Wakalkar"
             priority
           />
@@ -27,7 +30,7 @@ export default function Home() {
               <div>Hi I'm Vedank.👋</div>
             </h1>
             <ShinyText
-              text="Looking for Opportunity"
+              text="Upcoming Intern @SailPoint"
               speed={3}
               className="max-w-auto mt-2 mb-2"
             ></ShinyText>
@@ -54,7 +57,19 @@ export default function Home() {
             </section>
           </div>
         </section>
-        
+        <Experience />
+        <section className="flex flex-col gap-8">
+          <div className="flex justify-between">
+            <h2 className="title text-2xl sm:text-3xl">Projects</h2>
+            {/* <LinkWithIcon
+              href="/projects"
+              position="right"
+              icon={<ArrowRightIcon className="size-5" />}
+              text="view more"
+            /> */}
+          </div>
+          <Projects limit={limit} />
+        </section>
       </article>
     </>
   );
